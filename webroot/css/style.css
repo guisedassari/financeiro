@@ -1,0 +1,51 @@
+.btn {
+    border-radius: 0px;
+}
+
+.actions {
+    min-width: 100px;
+    text-align: center;
+}
+
+.actions-link {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.actions-link li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.actions-link li a {
+    margin-right: 5px;
+}
+
+.fileinput .thumbnail {
+    width: 250px;
+    height: 200px;
+}
+
+.fileinput .thumbnail > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wysihtml5-sandbox {
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
