@@ -30,6 +30,24 @@
         <li class="active">
             <?=
             $this->Html->link(
+                '<i class="fa fa-circle-thin" aria-hidden="true"></i> <span>Relatorios</span>',
+                ['controller' => 'Relatorios', 'action' => 'index'],
+                ['escape' => false]
+            );
+            ?>
+        </li>
+        <li>
+            <?=
+            $this->Html->link(
+                '<i class="fa fa-circle-thin" aria-hidden="true"></i> <span>Relatorios Geral</span>',
+                ['controller' => 'Relatorios', 'action' => 'relatorioGeral'],
+                ['escape' => false]
+            );
+            ?>
+        </li>
+        <li>
+            <?=
+            $this->Html->link(
                 '<i class="fa fa-circle-thin" aria-hidden="true"></i> <span>Usuarios</span>',
                 ['controller' => 'Users', 'action' => 'index'],
                 ['escape' => false]

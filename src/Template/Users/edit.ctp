@@ -9,7 +9,7 @@
                 <fieldset>
                     <?php
                     echo $this->Form->control('username');
-                    echo $this->Form->control('password', ['value' => '']);
+                    echo $this->Form->control('password');
                     ?>
                 </fieldset>
                 <?= $this->Form->button(__('Submit')) ?>
